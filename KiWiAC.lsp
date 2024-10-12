@@ -4,8 +4,8 @@
   Updated	  : -
   Venue  	  : 31H OOC
   References: 1. Lee Mac
-			        2. Afralisp
-			        3. Autodesk Autolisp Reference Guide
+			  2. Afralisp
+			  3. Autodesk Autolisp Reference Guide
 |;;======================================================================
 (defun c:AC (/ myObjCo ithObj ssObj ssnmObj objColr newObLi)
    (setq myObjCo (getint "Enter color index number: "))
