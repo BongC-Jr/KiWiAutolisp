@@ -3,6 +3,8 @@
   Updated   : - 
   Author    : Bernardo A. Cabebe Jr.
   Venue     : Palo Alto
+  -----------------------------------------------------------------------------
+  Copy content of a source text object to selected text objects 
 |;;=============================================================================
 (defun c:CTC_CopyTextContent (/ txLi aaItem  ssTxt aa aaEName aaEntLi textVal newEnLi) 
   (setq txLi (entget (car (entsel "\nSelect source text: "))))
